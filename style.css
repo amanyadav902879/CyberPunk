@@ -37,7 +37,7 @@ hr{
 .home3{
     background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #809b7b);
 
-    height: 200vh;
+    height: 130vh;
 }
 .image{
     border-radius: 30px;
@@ -85,12 +85,8 @@ hr{
     color: #00d2ff; /* Neon Electric Blue */
     transition: color 0.3s ease, background-color 0.3s ease;
 }
-/* Change text color to white for dropdown items under Categories */
-.nav-item.dropdown .dropdown-item {
-    color: #ffffff; /* White text color */
-}
-
-.nav-item.dropdown .dropdown-item:hover {
-    color: #00d2ff; /* Neon Electric Blue on hover */
-    background-color: rgba(0, 0, 0, 0.2); /* Dark background on hover */
+/* Change the hamburger menu icon color to white */
+.navbar-toggler-icon {
+    background-color: #7dcbff; /* White color for the icon */
+    border:none;
 }
