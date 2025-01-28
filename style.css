@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    background-image: url('images/Abstract\ futuristic\ gaming\ background\ for\ offline\ twitch\ stream.jpg'); /* Example path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.first{
+    background: linear-gradient(to right, #f077e6, #00a2ff);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: 1px solid#ffffff;
+}
+.sec{
+    background: linear-gradient(to right, #ec92e5, #00a2ff);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: 1px solid#ffffff;
+}
+.third{
+    background: linear-gradient(to right,  #00a2ff, #dd87d6);
+    border-radius: 10px;
+    border: 1px solid#ffffff;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+hr{
+    transform: rotate(90deg);
+}
+.home3{
+    background:linear-gradient(to left,#42326d,#320146);
+    height: 200vh;
+}
+.image{
+    border-radius: 30px;
+    border: 1px solid white;
+}
